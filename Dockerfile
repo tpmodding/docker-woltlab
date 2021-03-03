@@ -28,7 +28,7 @@ RUN docker-php-ext-install pdo_mysql mysqli && \
     docker-php-ext-enable imagick
 
 # Include Woltlab Setup
-RUN wget -O /tmp/woltlab.zip https://assets.woltlab.com/release/woltlab-suite-5.2.9.zip && \
+RUN wget -O /tmp/woltlab.zip https://assets.woltlab.com/release/woltlab-suite-5.3.4.zip && \
     unzip /tmp/woltlab.zip -d /tmp/woltlab && \
     mkdir -p /var/www/woltlab && \
     mkdir -p /opt/woltlab && \
