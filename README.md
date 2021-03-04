@@ -7,7 +7,7 @@
 
 > Run Woltlab Suite Core in a dockerized environment
 
-### 🏠 [Homepage](https://githu,com/BamButz/docker-woltlab)
+### 🏠 [Homepage](https://github.com/BamButz/docker-woltlab)
 
 ## Usage
 
